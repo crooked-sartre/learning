@@ -1,0 +1,26 @@
+{
+  "name": "dev-testing",
+  "version": "1.0.0",
+  "description": "Testing Development Env. on Pixelbook",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crooked-sartre/learning.git"
+  },
+  "author": "Jason Vignochi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crooked-sartre/learning/issues"
+  },
+  "homepage": "https://github.com/crooked-sartre/learning#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
