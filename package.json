@@ -1,19 +1,27 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "main",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "Main project code",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crooked-sartre/learning.git"
   },
   "author": "Jason Vignochi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crooked-sartre/learning/issues"
+  },
+  "homepage": "https://github.com/crooked-sartre/learning#readme",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   }
 }
