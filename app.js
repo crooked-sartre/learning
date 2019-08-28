@@ -2,11 +2,16 @@
 const express = require('express');
 const bodyParser = require('body-parser')
 const path = require('path')
+//const expressHbs = require('express-handlebars'); //pug and ejs are built in.
 
 const app = express();
 
-app.set('view engine', 'pug');
-app.set('views', 'views');
+//Handlebars format - not really into it.
+//hbrs natively stores layouts at 'views/layouts/', it doesn't need to be explicitely written.
+// app.engine('hbs', 
+//     expressHbs({layoutsDir: '', defaultLayout: 'main-layout', extname: 'hbs'})); 
+app.set('view engine', 'ejs');
+app.set('views', 'views');//since we are using a views folder, we don't actually have to declare this
 
 
 const adminData = require('./routes/admin');
